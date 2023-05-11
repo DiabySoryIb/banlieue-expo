@@ -10,7 +10,7 @@ function Hero () {
       py="12"
       position="relative"
       h={{ base: '560px', md: '640px' }}
-      bgImage="url(https://images.unsplash.com/photo-1533542632746-8e3f6f06bec6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80)"
+      bgImage="url(https://scontent.fcky4-1.fna.fbcdn.net/v/t39.30808-6/345436484_141923525525143_7580425804044684220_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=IrLtejR-THAAX9S_MxO&_nc_ht=scontent.fcky4-1.fna&oh=00_AfDiLgwcPRDwEqkip_B5Ym0Ego5UuqZIsIW19NfegwZykw&oe=64628908)"
       bgSize="cover"
       bgPosition="center"
       _after={{
@@ -52,7 +52,7 @@ function Hero () {
       <Box
         display={{ base: 'none', md: 'block' }}
         position="absolute"
-        zIndex={2}
+        zIndex={1}
         w="full"
         bottom="0"
         py="5"
