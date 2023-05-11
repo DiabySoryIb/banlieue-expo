@@ -33,17 +33,17 @@ function Hero () {
         position="relative"
       >
         <Center flexDirection="column" textAlign="center" color="white" h="full">
-          <Heading size="2xl" fontWeight="extrabold">
+          <Heading size="2xl" fontWeight="extrabold" color={"#a75a1a"}>
           Bienvenue à Banlieue Expo
           </Heading>
           <Text fontSize="lg" fontWeight="medium" mt="4">
           17 jours pour vos meilleures ventes, achats et divertissements.
           </Text>
-          <Text fontSize="lg" fontWeight="semibold" mt="3" color={"yellow"}>
+          <Text fontSize="lg" fontWeight="semibold" mt="3" color={"white"}>
           Plongez dans l'excitation de la Foire de la Banlieue.
           </Text>
           <LightMode>
-            <Button colorScheme="blue" size="lg" mt="6" fontWeight="bold" fontSize="md">
+            <Button colorScheme="blue" size="lg" mt="6" fontWeight="bold" fontSize="md" >
             Réservez votre stand dès maintenant.
             </Button>
           </LightMode>
@@ -55,7 +55,7 @@ function Hero () {
         zIndex={2}
         w="full"
         bottom="0"
-        py="4"
+        py="5"
         bg="blackAlpha.400"
       >
         <Box maxW={{ base: 'xl', md: '7xl' }} mx="auto">
@@ -65,12 +65,12 @@ function Hero () {
               <Text fontSize="3xl">24h/24h</Text>
             </Box>
             <Box textAlign="center" color="white">
-              <Text>Transactions</Text>
-              <Text fontSize="3xl">6.4M+</Text>
+              <Text>Capacite d'acceuil</Text>
+              <Text fontSize="3xl">15 000 personnes </Text>
             </Box>
             <Box textAlign="center" color="white">
-              <Text>Price Range</Text>
-              <Text fontSize="3xl">$5k - $12K</Text>
+              <Text>Nos pavillons</Text>
+              <Text fontSize="3xl">8 disponibles</Text>
             </Box>
           </SimpleGrid>
         </Box>
